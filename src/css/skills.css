@@ -1,0 +1,44 @@
+.skills {
+    padding: 80px 0 100px ;
+    background-color: #000000cc;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    max-width: 80%;
+    border-radius: 13%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom:60px;
+    height: 600px;
+    display: inline-block;
+    
+}
+
+.skills .mainHeader{
+    font-size: 35px;
+    font-weight: 700;
+}
+.skills p{
+    color: #B8B8B8;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3% 5%;
+    margin-bottom: 13%;
+    margin-top: 3%;
+}
+
+.skills .skills-imgs{
+    display: flex;
+    margin: 0;
+    text-align: center;
+
+}
+.skills .skills-imgs .skills-img img{
+    width: 6rem;
+
+}
+.skills .skills-imgs .skills-img h2{
+    font-size: 20px;
+}
