@@ -1,44 +1,45 @@
 .skills {
-    padding: 80px 0 100px ;
-    background-color: #000000cc;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 40%;
-    max-width: 80%;
-    border-radius: 13%;
-    margin: auto;
-    margin-top: 60px;
-    margin-bottom:60px;
-    height: 600px;
-    display: inline-block;
-    
+    padding: 0 0 50px 0 ;
+    position: relative;
+}
+.skill-bx{
+    background-color: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+
 }
 
 .skills .mainHeader{
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 700;
 }
 .skills p{
     color: #B8B8B8;
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: .8px;
+    line-height: 1.5em;
     font-weight: 400;
     text-align: center;
-    padding: 3% 5%;
-    margin-bottom: 13%;
-    margin-top: 3%;
+    margin: 14px 0 75px 0 ;
 }
 
-.skills .skills-imgs{
-    display: flex;
-    margin: 0;
-    text-align: center;
+.skill-slider{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
 
+.skills .item img{
+    width: 50%;
+    margin: 0 auto 15px auto;
 }
-.skills .skills-imgs .skills-img img{
-    width: 6rem;
 
-}
-.skills .skills-imgs .skills-img h2{
-    font-size: 20px;
-}
+/* .back-img {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  } */
