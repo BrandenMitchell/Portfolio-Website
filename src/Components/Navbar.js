@@ -5,6 +5,7 @@ import {useState,useEffect} from "react";
 import logo from '../assets/images/logo.svg';
 import linkedin from '../assets/images/linkedin.svg';
 import insta from  '../assets/images/insta.svg';
+import github from  '../assets/images/github.svg';
 import '../css/navBar.css';
 
 
@@ -51,10 +52,11 @@ export const NavBar = () => {
                 </Nav>
                 <span className='navbar-text'> 
                     <div className='social-icon'>
-                        <a href='#'> <img src={linkedin} alt='social' /> </a>
-                        <a href='#'> <img src={insta} alt='social'/> </a>
+                        <a href='https://www.linkedin.com/in/branden-mitchell-2722a7306/' target='blank'> <img src={linkedin} alt='social' /> </a>
+                        <a href='https://www.instagram.com/branden_mitchell_/' target='blank'> <img src={insta} alt='social' target='blank'/> </a>
+                        <a href='https://github.com/BrandenMitchell'target='blank'> <img id='git' src={github} alt='social'/> </a>
                     </div>
-                    <button className='lets-connect' onClick={() => console.log("connect me later")} ><span>Lets Connect</span></button>
+                    <button className='lets-connect' onClick={() => console.log("FINISH ME")} ><span>Lets Connect</span></button>
                 </span>
                 
             </Navbar.Collapse>

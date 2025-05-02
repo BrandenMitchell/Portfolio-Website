@@ -4,15 +4,16 @@ import {ProjectCard} from "../Components/ProjectCard.js";
 import skill1 from "../assets/images/skill1.svg";
 import sospic from "../assets/images/sospic.jpg";
 import symplcycle from "../assets/images/sympcyclepic.jpg";
+import potionPic from "../assets/images/potionFrontEnd.jpg";
 import "../css/project.css";
 
 
 export const Projects = () => {
     const projectDict = [
         {
-            title: "Recipe Randomizer",
-            description: "This is an application to allow people to get quick and easy recipes online for free",
-            imgURL: skill1,
+            title: "Potion a Note Taking App",
+            description: "Potion is a joint development project me and a classmate worked on with the goal of offering a free alternative to other ad filled note taking applications. ",
+            imgURL: potionPic,
         },
         {
             title: "SOS Game",

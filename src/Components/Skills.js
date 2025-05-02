@@ -1,14 +1,13 @@
-
-
 import React from "react";
 import {Container,Row,Col} from "react-bootstrap";
 import skill1 from "../assets/images/skill1.svg";
 import skill2 from "../assets/images/skill2.svg";
-import skill3 from "../assets/images/skill3.svg";
+import skill3 from "../assets/images/bootstrap-svgrepo-com.svg";
+import skill4 from "../assets/images/skill4.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import "../css/skills.css";
-import backgroundimg from "../assets/images/bannerBack.jpg"
+
 
 export const Skills = () => {
     const responsive = {
@@ -55,7 +54,7 @@ export const Skills = () => {
                                     <h3>BootStrap</h3>
                                 </div>
                                 <div className="item" >
-                                    <img src={skill1} alt="skillimg" />
+                                    <img src={skill4} alt="skillimg" />
                                     <h3>Certifications</h3>
                                 </div>
                             </Carousel>

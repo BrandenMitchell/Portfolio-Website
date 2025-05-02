@@ -2,6 +2,7 @@
     padding: 80px 0;
     position: relative;
     background-color: black;
+    background-color: #000000da;
 }
 .project h2 {
     font-size: 45px;
@@ -24,7 +25,12 @@
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 24px;
+
     
+  }
+  .proj-imgbx img{
+    width: 100%;
+    height: 50%;
   }
   .proj-imgbx::before {
     content: "";
