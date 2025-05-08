@@ -5,6 +5,7 @@ import {Banner} from "../src/Components/Banner";
 import {Skills} from "../src/Components/Skills";
 import {Projects} from "../src/Components/Project";
 import {Contact} from "../src/Components/Contact";
+import {Footer} from "../src/Components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

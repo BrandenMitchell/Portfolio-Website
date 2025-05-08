@@ -67,7 +67,10 @@
   .banner img {
     animation: updown 3s linear infinite;
   }
-
+.banner .connectbtn{
+    text-decoration: none;
+    
+}
 @keyframes updown {
     0%{
         transform: translateY(-20px);

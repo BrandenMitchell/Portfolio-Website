@@ -61,7 +61,9 @@ export const Banner = () =>{
                     <p> 
                     I’m a software engineer specializing in web development, driven by a passion for the artistic side of coding. I view software as a tool to build intuitive, engaging experiences using a strong foundation in web technologies.
                     </p>
-                    <button onClick={() => console.log("finish me")}>Lets Connect <ArrowRightCircle size={25} /></button>
+                    <a href="#connect" className="connectbtn">
+                        <button>Lets Connect <ArrowRightCircle size={25} /></button>
+                    </a>
                     </Col>
                     <Col xs={12} md={6} xl={5} >
                     <img src={headerImg} className="header-img" alt="Header img " />                 
